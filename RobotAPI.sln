@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotAPI", "RobotAPI\RobotAPI.csproj", "{8A0F5165-538F-4BDB-AD78-08B92D852534}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{551AFFFF-D59A-4B6A-BABD-906F2235DEC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{4CC2F67D-612D-4FA9-9224-68D726546D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALRobot", "DALRobot\DALRobot.csproj", "{C026F1B7-3D9D-455C-9DF7-87DA6D58806D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A0F5165-538F-4BDB-AD78-08B92D852534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0F5165-538F-4BDB-AD78-08B92D852534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0F5165-538F-4BDB-AD78-08B92D852534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0F5165-538F-4BDB-AD78-08B92D852534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C026F1B7-3D9D-455C-9DF7-87DA6D58806D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C026F1B7-3D9D-455C-9DF7-87DA6D58806D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C026F1B7-3D9D-455C-9DF7-87DA6D58806D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C026F1B7-3D9D-455C-9DF7-87DA6D58806D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A0F5165-538F-4BDB-AD78-08B92D852534} = {551AFFFF-D59A-4B6A-BABD-906F2235DEC1}
+		{C026F1B7-3D9D-455C-9DF7-87DA6D58806D} = {4CC2F67D-612D-4FA9-9224-68D726546D27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E089AE91-790A-43B7-81EF-93A6E394CFF6}
+	EndGlobalSection
+EndGlobal
