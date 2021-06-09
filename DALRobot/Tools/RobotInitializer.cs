@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DALRobot.Tools
 {
-    class RobotInitializer : System.Data.Entity.DropCreateDatabaseAlways<RobotContext>
+    class RobotInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<RobotContext>
     {
         protected override void Seed(RobotContext context)
         {
