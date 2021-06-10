@@ -11,10 +11,8 @@ using System.Web.Mvc;
 
 namespace DALRobot.Services
 {
-    public class RobotStoreService : IRobotStore
+    public class RobotStoreService : Service, IRobotStore
     {
-        RobotContext context = new RobotContext();
-
         public Robot Create(Robot entity)
         {          
             if (entity.RobotName == null)

@@ -15,6 +15,7 @@ namespace DALRobot.Context
         { }
 
         public DbSet<Robot> Robots { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

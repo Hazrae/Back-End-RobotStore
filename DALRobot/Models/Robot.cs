@@ -11,6 +11,7 @@ namespace DALRobot.Models
 
         public int RobotID { get; set; }
         public String RobotName { get; set; }
+        
 
         public Robot() { }
 

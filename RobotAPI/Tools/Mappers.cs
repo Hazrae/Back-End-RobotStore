@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DALRobot.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -23,5 +24,27 @@ namespace RobotAPI.Tools
                 RobotName = r.RobotName
             };
         }
+
+        public static DALRobot.Models.User toDAL(this RobotAPI.Models.User u)
+        {
+            return new DALRobot.Models.User
+            {
+                UserID = u.UserID,
+                Username = u.Username,
+                Password = u.Password,
+                IsAdmin = u.IsAdmin
+            };
+        }
+        public static RobotAPI.Models.User toAPI(this DALRobot.Models.User u)
+        {
+            return new RobotAPI.Models.User
+            {
+                UserID = u.UserID,
+                Username = u.Username,
+                Password = u.Password,
+                IsAdmin = u.IsAdmin
+            };
+        }
+
     }
 }
